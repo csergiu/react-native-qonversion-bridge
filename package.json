@@ -2,7 +2,7 @@
   "name": "react-native-qonversion-bridge",
   "title": "React Native Qonversion Bridge",
   "version": "1.0.0",
-  "description": "TODO",
+  "description": "Native module for setting up Qonversion.io from React Native",
   "main": "index.js",
   "files": [
     "README.md",
