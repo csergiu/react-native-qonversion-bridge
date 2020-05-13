@@ -12,6 +12,11 @@
 ```javascript
 import QonversionBridge from 'react-native-qonversion-bridge';
 
-// TODO: What to do with the module?
-QonversionBridge;
+QonversionBridge.launch(
+    apiKey, // https://dash.qonversion.io/app/settings
+    customUserId,
+    (resp) => {
+        console.log(`Launched Qonversion with: ${resp}`);
+    },
+);
 ```
